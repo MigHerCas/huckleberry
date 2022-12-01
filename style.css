@@ -48,6 +48,10 @@ h2 {
   font-size: var(--font-size-medium);
 }
 
+.indented-heading {
+  margin-left: calc(-1 * (var(--spacing-3) + var(--spacing-1) ));
+}
+
 p {
   font-size: var(--font-size-small);
   line-height: 1.5;
@@ -75,4 +79,21 @@ main {
   padding-bottom: var(--spacing-8);
   background-color: var(--color-dark-grey);
   border-top: 8px solid var(--color-light-grey);
+}
+
+.card {
+  padding: var(--spacing-1) var(--spacing-3) var(--spacing-3);
+  background-color: var(--color-white);
+  border-bottom: 8px solid var(--color-light-grey);
+}
+
+.card > h2 {
+  padding: var(--spacing-2) var(--spacing-4);
+  margin-bottom: var(--spacing-3);
+  border-bottom: 8px solid var(--color-dark-orange);
+  background-color: var(--color-light-orange);
+}
+
+.card > p:last-child {
+  margin-bottom: 0;
 }
