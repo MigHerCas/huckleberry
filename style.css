@@ -37,3 +37,24 @@ body {
   --breakpoint-tablet: 768px;
   --breakpoint-desktop: 1280px;
 }
+
+h1 {
+  font-size: var(--font-size-large);
+  margin-top: 0;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: var(--font-size-medium);
+}
+
+p {
+  font-size: var(--font-size-small);
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+strong {
+  color: var(--color-green)
+}
