@@ -58,3 +58,14 @@ p {
 strong {
   color: var(--color-green)
 }
+
+header {
+  padding-top: var(--spacing-12);
+  padding-right: var(--spacing-3);
+  padding-bottom: var(--spacing-8);
+  padding-left: var(--spacing-3);
+}
+
+.intro-chunk > p:last-child {
+  margin-bottom: 0;
+}
