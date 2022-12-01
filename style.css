@@ -73,5 +73,4 @@ header {
 main {
   background-color: var(--color-dark-grey);
   border-top: 8px solid var(--color-light-grey);
-  border-bottom: 8px solid var(--color-light-grey);
 }
