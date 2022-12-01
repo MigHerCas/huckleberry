@@ -66,6 +66,17 @@ header {
   padding-left: var(--spacing-3);
 }
 
+.intro-chunk > p {
+  max-width: 401px;
+  margin-inline-end: auto;
+}
+
+@media (min-width: 768px) {
+  .intro-chunk > p {
+    max-width: 415px;
+  }
+}
+
 .intro-chunk > p:last-child {
   margin-bottom: 0;
 }
@@ -84,6 +95,7 @@ main {
 }
 
 .card > h2 {
+  max-width: max-content;
   padding: var(--spacing-2) var(--spacing-4);
   margin-bottom: var(--spacing-3);
   border-bottom: 8px solid var(--color-dark-orange);
@@ -92,4 +104,10 @@ main {
 
 .card > p:last-child {
   margin-bottom: 0;
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
 }
