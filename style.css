@@ -30,6 +30,7 @@ body {
   --spacing-4: 32px;
   --spacing-6: 48px;
   --spacing-8: 64px;
+  --spacing-9: 72px;
   --spacing-12: 96px;
   --spacing-16: 128px;
 }
@@ -82,8 +83,8 @@ header {
 }
 
 main {
-  padding-top: var(--spacing-8);
-  padding-bottom: var(--spacing-8);
+  padding-top: var(--spacing-9);
+  padding-bottom: var(--spacing-9);
   background-color: var(--color-dark-grey);
   border-top: 8px solid var(--color-light-grey);
 }
