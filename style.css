@@ -47,6 +47,8 @@ h2 {
 
 .indented-heading {
   margin-left: calc(-1 * (var(--spacing-3) + var(--spacing-1) ));
+  margin-bottom: var(--spacing-1);
+  border-bottom: 8px solid var(--color-dark-orange);
 }
 
 p {
@@ -65,9 +67,7 @@ strong {
 }
 
 header {
-  padding-right: var(--spacing-3);
-  padding-left: var(--spacing-3);
-}
+  border-bottom: 8px solid var(--color-light-grey);}
 
 .intro-chunk {
   max-width: 401px;
@@ -87,10 +87,8 @@ header {
 
 
 main {
-  padding-top: var(--spacing-9);
-  padding-bottom: var(--spacing-9);
+  padding: var(--spacing-8) 0;
   background-color: var(--color-dark-grey);
-  border-top: 8px solid var(--color-light-grey);
 }
 
 .card {
@@ -109,6 +107,7 @@ main {
 }
 
 .max-width-wrapper {
+  padding: 0 var(--spacing-3);
   max-width: 800px;
   margin-inline-start: auto;
   margin-inline-end: auto;
