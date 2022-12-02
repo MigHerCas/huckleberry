@@ -46,7 +46,14 @@ h2 {
 }
 
 .indented-heading {
+  max-width: fit-content;
+  padding: var(--spacing-2) var(--spacing-4);
+  margin-bottom: var(--spacing-3);
+  background-color: var(--color-light-orange);
+  margin-top: calc(-1 * var(--spacing-2));
   margin-left: calc(-1 * (var(--spacing-3) + var(--spacing-1) ));
+  margin-bottom: var(--spacing-1);
+  border-bottom: 8px solid var(--color-dark-orange);
 }
 
 p {
@@ -56,58 +63,48 @@ p {
   margin-bottom: 16px;
 }
 
+p:last-child {
+  margin-bottom: 0;
+}
+
 strong {
   color: var(--color-green)
 }
 
 header {
-  padding-top: var(--spacing-12);
-  padding-right: var(--spacing-3);
-  padding-bottom: var(--spacing-8);
-  padding-left: var(--spacing-3);
-}
+  border-bottom: 8px solid var(--color-light-grey);}
 
-.intro-chunk > p {
+.intro-chunk {
   max-width: 401px;
-  margin-inline-end: auto;
+  padding-top: var(--spacing-12);
+  padding-bottom: var(--spacing-8);
 }
 
 @media (min-width: 768px) {
-  .intro-chunk > p {
+  .intro-chunk {
     max-width: 415px;
   }
 }
 
-.intro-chunk > p:last-child {
-  margin-bottom: 0;
+.intro-chunk > p {
+  margin-inline-end: auto;
 }
 
+
 main {
-  padding-top: var(--spacing-9);
-  padding-bottom: var(--spacing-9);
+  padding: var(--spacing-8) 0;
   background-color: var(--color-dark-grey);
-  border-top: 8px solid var(--color-light-grey);
 }
 
 .card {
-  padding: var(--spacing-1) var(--spacing-3) var(--spacing-3);
+  padding: var(--spacing-3);
+  margin: 0 calc(-1 * var(--spacing-3));
   background-color: var(--color-white);
   border-bottom: 8px solid var(--color-light-grey);
 }
 
-.card > h2 {
-  max-width: max-content;
-  padding: var(--spacing-2) var(--spacing-4);
-  margin-bottom: var(--spacing-3);
-  border-bottom: 8px solid var(--color-dark-orange);
-  background-color: var(--color-light-orange);
-}
-
-.card > p:last-child {
-  margin-bottom: 0;
-}
-
 .max-width-wrapper {
+  padding: 0 var(--spacing-3);
   max-width: 800px;
   margin-inline-start: auto;
   margin-inline-end: auto;
