@@ -56,6 +56,10 @@ p {
   margin-bottom: 16px;
 }
 
+p:last-child {
+  margin-bottom: 0;
+}
+
 strong {
   color: var(--color-green)
 }
@@ -82,10 +86,6 @@ header {
 }
 
 
-.intro-chunk > p:last-child {
-  margin-bottom: 0;
-}
-
 main {
   padding-top: var(--spacing-9);
   padding-bottom: var(--spacing-9);
@@ -105,10 +105,6 @@ main {
   margin-bottom: var(--spacing-3);
   border-bottom: 8px solid var(--color-dark-orange);
   background-color: var(--color-light-orange);
-}
-
-.card > p:last-child {
-  margin-bottom: 0;
 }
 
 .max-width-wrapper {
