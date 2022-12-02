@@ -101,7 +101,7 @@ main {
 }
 
 .card > h2 {
-  max-width: max-content;
+  max-width: fit-content;
   padding: var(--spacing-2) var(--spacing-4);
   margin-bottom: var(--spacing-3);
   border-bottom: 8px solid var(--color-dark-orange);
