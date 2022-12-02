@@ -46,6 +46,11 @@ h2 {
 }
 
 .indented-heading {
+  max-width: fit-content;
+  padding: var(--spacing-2) var(--spacing-4);
+  margin-bottom: var(--spacing-3);
+  background-color: var(--color-light-orange);
+  margin-top: calc(-1 * var(--spacing-2));
   margin-left: calc(-1 * (var(--spacing-3) + var(--spacing-1) ));
   margin-bottom: var(--spacing-1);
   border-bottom: 8px solid var(--color-dark-orange);
@@ -96,14 +101,6 @@ main {
   margin: 0 calc(-1 * var(--spacing-3));
   background-color: var(--color-white);
   border-bottom: 8px solid var(--color-light-grey);
-}
-
-.card > h2 {
-  max-width: fit-content;
-  padding: var(--spacing-2) var(--spacing-4);
-  margin-bottom: var(--spacing-3);
-  border-bottom: 8px solid var(--color-dark-orange);
-  background-color: var(--color-light-orange);
 }
 
 .max-width-wrapper {
