@@ -61,10 +61,13 @@ strong {
 }
 
 header {
-  padding-top: var(--spacing-12);
   padding-right: var(--spacing-3);
-  padding-bottom: var(--spacing-8);
   padding-left: var(--spacing-3);
+}
+
+.intro-chunk {
+  padding-top: var(--spacing-12);
+  padding-bottom: var(--spacing-8);
 }
 
 .intro-chunk > p {
